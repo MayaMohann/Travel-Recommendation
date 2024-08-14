@@ -1,0 +1,106 @@
+* {
+    font-size: 16px; 
+    font-weight: 200; 
+    box-sizing: border-box; 
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Header styles */
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    background-color: #000000; 
+    height: 55px;
+}
+
+#logo-container {
+    display: flex; 
+    align-items: center; 
+}
+
+/* Logo styles */
+#logo {
+    font-size: 20px; /* Adjust logo size */
+    font-weight: 550; /* Make the logo text bold */
+    color: #000000; /* Logo text color */
+    font-style: italic; /* Italicize the logo text */
+    color: white;
+}
+
+/* Plane icon styles */
+.fa-plane {
+    font-size: 40px; /* Adjust the icon size */
+    color: #000000; /* Set the icon color */
+    transform: rotate(310deg); /* Rotate the icon */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the rotation */
+    text-shadow: 
+    -1px -1px 0 #ffffff, 
+    1px -1px 0 rgb(255, 255, 255), 
+   -1px  1px 0 rgb(255, 255, 255), 
+    1px  1px 0 white;
+}
+
+/* Navigation list styles */
+#nav-list {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Align navigation items horizontally */
+}
+
+#nav-list li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+#nav-list li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding inside the link */
+    display: block; /* Make the whole area clickable */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+#nav-list li a:hover {
+    background-color: #2b937f; /* Background color on hover */
+    border-radius: 5px; /* Round the corners on hover */
+}
+
+/* Header item styles (search bar and buttons) */
+.header-item {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.header-item input {
+    padding: 5px; /* Padding inside the input field */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the corners */
+    margin-right: 10px; /* Space between input and buttons */
+    width: 400px;
+}
+
+.header-item button {
+    padding: 5px 10px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the corners */
+    background-color: #2b937f; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 5px; /* Space between buttons */
+}
+
+.header-item button:hover {
+    background-color: #2b937f; /* Darker color on hover */
+}
+
+/* Tagline styles */
+#tagline {
+    font-size: 40px; /* Adjust the size of the tagline */
+    display: inline-block; /* Ensure it behaves as an inline element but allows for block-level styling */
+    line-height: 1.8em; /* Adjust line height */
+}
