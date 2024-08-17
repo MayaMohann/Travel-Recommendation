@@ -1,18 +1,20 @@
+/* General styles for the page */
 * {
     font-size: 16px; 
     font-weight: 500; 
     box-sizing: border-box; 
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: serif; */
     color: white;
-
 }
+
 html {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     margin: 0; 
     padding: 0; 
     height: 100%; 
@@ -22,7 +24,6 @@ body{
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-
 }
 
 /* Header styles */
@@ -65,7 +66,7 @@ header {
 /* Navigation list styles */
 #nav-list {
     list-style-type: none;
-    margin-left:400px ; 
+    margin-left: 400px; 
     margin-right: auto;
     padding: 0; 
     display: flex;
@@ -118,62 +119,51 @@ header {
 }
 
 .header-item button:hover {
-    background-color: #ffffff; 
+    background-color: #1f6c5c; 
 }
 
-
+/* Container styles */
 #container {
-    display: flex; 
+    display: block; 
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between; 
-    width: 100%; 
     padding: 20px; 
-}
-
-
-#tagline {
-    font-size: 40px; 
-    display: inline-block; 
-    line-height: 1.8em; 
+    position: relative; 
 }
 
 /* Contact items list styles */
 #contact_items {
     list-style-type: none; 
-    margin-top: 80px; 
+    margin: 0; 
     padding: 0; 
     display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    margin-right: 50px; 
+    flex-direction: column; /* Align items vertically */
+    position: fixed; /* Fixed position */
+    left: 10px; /* Distance from the left edge of the page */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical alignment */
 }
 
-/* Contact items list elements */
 #contact_items li {
-    margin: 10x 0; 
-    line-height: 50px;
-
+    margin: 10px 0; 
 }
 
 #contact_items i {
-    font-size: 25px;
+    font-size: 30px;
     color: #000000; 
     transition: transform 0.3s ease-in-out; 
 }
 
-/* Hover effect for icons */
 #contact_items i:hover {
     transform: scale(1.2); 
     color: #ffffff; 
 }
 
-
 /* Content area styles */
 #content {
-    max-width: 600px;
-    margin-left: 30px;
-    margin-right: auto;
+    text-align: left; 
+    margin-left: 100px;
+
 }
 
 #tagline {
@@ -182,23 +172,21 @@ header {
     margin-top: 150px;
     margin-bottom: 20px; 
     font-weight: 600;
-
 }
 
 #description {
     font-size: 18px;
     line-height: 1.6em; 
-    margin-bottom: 30px; 
-    margin-left: 2px;
-    margin-right: 250px;
-
+    margin-bottom: 30px;
+    margin-right: 1000px;
+    margin-left: auto;
 }
 
 #book {
     padding: 10px 20px; 
     font-size: 18px; 
     color: white; 
-    background-color: #3dcfb2; 
+    background-color: #38bea4; 
     border: none; 
     border-radius: 5px; 
     cursor: pointer; 
@@ -206,5 +194,121 @@ header {
 }
 
 #book:hover {
-    background-color: #36c1a5; 
+    background-color: #1f6c5c; 
+}
+
+/* About Us Section styles */
+#about_id {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#content_about {
+    max-width: 100%; /* Limit the width of the content */
+    margin-left:100px;
+    margin-top: 30px;
+
+}
+#about_id{
+    font-size: 55px; 
+    margin: 0 0 20px 0; /* Margin for spacing */
+    font-weight: bold; 
+}
+#about_desc {
+    /* border: 2px solid #1f6c5c;  */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0.2, 0.2, 0.2);
+    background-color: rgba(10, 10, 10, 0.263);
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 1150px;
+    margin-left: 50px;
+
+
+}
+
+#about_desc p{
+    font-size: 18px;
+    max-width: 100%;
+    flex:auto;
+}
+
+
+/* Team Section styles */
+#team_desc{
+    width: 70%;
+    margin:0 auto;
+    /* border: 2px solid #1f6c5c;  */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0.2, 0.2, 0.2);
+    background-color: rgba(10, 10, 10, 0.263);
+}
+
+#team{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+#team > *:first-child {
+    margin-right: auto;
+}
+
+
+#team h1{
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+}
+
+
+#team_desc ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center team members */
+    flex-wrap: wrap; 
+}
+
+#team_desc li {
+    background-color: rgba(0, 0, 0, 0.388);
+    padding: 20px;
+    border-radius: 10px;
+    /* max-width: 300px; */
+    margin: 10px;
+    text-align: left;
+}
+#team_desc li i {
+    font-size: 20px; 
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+#team_desc li h3 {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#role {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    width: 100%; 
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 10px; 
+    background-color: #2b937f;
+    display: inline-block;
 }
