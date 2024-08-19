@@ -1,0 +1,258 @@
+[
+    {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+            {
+                "name": "Sydney, Australia",
+                "imageUrl": "sydney.jpg",
+                "description": "Sydney is known for its iconic Sydney Opera House, beautiful beaches, and vibrant cultural scene."
+            },
+            {
+                "name": "Melbourne, Australia",
+                "imageUrl": "melbourne.jpg",
+                "description": "Melbourne is famous for its coffee culture, art galleries, and diverse dining experiences."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+            {
+                "name": "Tokyo, Japan",
+                "imageUrl": "tokyo.jpg",
+                "description": "Tokyo is a bustling metropolis known for its modern architecture, shopping, and traditional temples."
+            },
+            {
+                "name": "Kyoto, Japan",
+                "imageUrl": "kyoto.jpg",
+                "description": "Kyoto is famous for its classical Buddhist temples, beautiful gardens, and traditional wooden houses."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "France",
+        "cities": [
+            {
+                "name": "Paris, France",
+                "imageUrl": "paris.jpg",
+                "description": "Paris, the city of love, is known for its art, fashion, gastronomy, and the iconic Eiffel Tower."
+            },
+            {
+                "name": "Nice, France",
+                "imageUrl": "nice.jpg",
+                "description": "Nice is known for its beautiful beaches, the Promenade des Anglais, and stunning Mediterranean views."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Italy",
+        "cities": [
+            {
+                "name": "Rome, Italy",
+                "imageUrl": "rome.jpg",
+                "description": "Rome, the capital of Italy, is a city with nearly 3,000 years of globally influential art, architecture, and culture."
+            },
+            {
+                "name": "Venice, Italy",
+                "imageUrl": "venice.jpg",
+                "description": "Venice is famous for its canals, historic architecture, and the annual Carnival celebration."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "United States",
+        "cities": [
+            {
+                "name": "New York City, USA",
+                "imageUrl": "nyc.jpg",
+                "description": "New York City is known for its iconic landmarks like the Statue of Liberty, Times Square, and Central Park."
+            },
+            {
+                "name": "Los Angeles, USA",
+                "imageUrl": "losangeles.jpg",
+                "description": "Los Angeles is known for Hollywood, beautiful beaches, and its diverse cultural scene."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Canada",
+        "cities": [
+            {
+                "name": "Toronto, Canada",
+                "imageUrl": "toronto.jpg",
+                "description": "Toronto is known for its skyscrapers, museums, and vibrant multicultural community."
+            },
+            {
+                "name": "Vancouver, Canada",
+                "imageUrl": "vancouver.jpg",
+                "description": "Vancouver is famous for its natural beauty, with mountains, forests, and ocean surrounding the city."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "United Kingdom",
+        "cities": [
+            {
+                "name": "London, UK",
+                "imageUrl": "london.jpg",
+                "description": "London is known for its rich history, cultural diversity, and iconic landmarks like Big Ben and the Tower of London."
+            },
+            {
+                "name": "Edinburgh, UK",
+                "imageUrl": "edinburgh.jpg",
+                "description": "Edinburgh is famous for its medieval Old Town, the Edinburgh Castle, and its annual arts festival."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Spain",
+        "cities": [
+            {
+                "name": "Barcelona, Spain",
+                "imageUrl": "barcelona.jpg",
+                "description": "Barcelona is known for its unique architecture by Antoni Gaudí, vibrant culture, and beautiful beaches."
+            },
+            {
+                "name": "Madrid, Spain",
+                "imageUrl": "madrid.jpg",
+                "description": "Madrid is the capital of Spain, known for its historic landmarks, art museums, and lively nightlife."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Germany",
+        "cities": [
+            {
+                "name": "Berlin, Germany",
+                "imageUrl": "berlin.jpg",
+                "description": "Berlin is known for its history, vibrant arts scene, and modern architecture."
+            },
+            {
+                "name": "Munich, Germany",
+                "imageUrl": "munich.jpg",
+                "description": "Munich is famous for its Oktoberfest, beer gardens, and historic buildings."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Thailand",
+        "cities": [
+            {
+                "name": "Bangkok, Thailand",
+                "imageUrl": "bangkok.jpg",
+                "description": "Bangkok is known for its vibrant street life, ornate shrines, and bustling markets."
+            },
+            {
+                "name": "Chiang Mai, Thailand",
+                "imageUrl": "chiangmai.jpg",
+                "description": "Chiang Mai is famous for its temples, mountains, and the annual Yi Peng Lantern Festival."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Brazil",
+        "cities": [
+            {
+                "name": "Rio de Janeiro, Brazil",
+                "imageUrl": "rio.jpg",
+                "description": "Rio de Janeiro is known for its beaches, Carnival festival, and the iconic Christ the Redeemer statue."
+            },
+            {
+                "name": "São Paulo, Brazil",
+                "imageUrl": "saopaulo.jpg",
+                "description": "São Paulo is Brazil’s financial center, known for its cultural institutions and skyscrapers."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "China",
+        "cities": [
+            {
+                "name": "Beijing, China",
+                "imageUrl": "beijing.jpg",
+                "description": "Beijing is known for its rich history, the Forbidden City, and the Great Wall of China."
+            },
+            {
+                "name": "Shanghai, China",
+                "imageUrl": "shanghai.jpg",
+                "description": "Shanghai is a global financial hub known for its skyline, historic architecture, and shopping."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "India",
+        "cities": [
+            {
+                "name": "New Delhi, India",
+                "imageUrl": "newdelhi.jpg",
+                "description": "New Delhi is known for its historic monuments like the Red Fort and Qutub Minar, and vibrant street markets."
+            },
+            {
+                "name": "Mumbai, India",
+                "imageUrl": "mumbai.jpg",
+                "description": "Mumbai is the financial capital of India, famous for Bollywood, street food, and colonial architecture."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Mexico",
+        "cities": [
+            {
+                "name": "Mexico City, Mexico",
+                "imageUrl": "mexicocity.jpg",
+                "description": "Mexico City is known for its ancient Aztec sites, museums, and vibrant cultural scene."
+            },
+            {
+                "name": "Cancun, Mexico",
+                "imageUrl": "cancun.jpg",
+                "description": "Cancun is famous for its stunning beaches, resorts, and nightlife."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "South Africa",
+        "cities": [
+            {
+                "name": "Cape Town, South Africa",
+                "imageUrl": "capetown.jpg",
+                "description": "Cape Town is known for its stunning landscapes, Table Mountain, and vibrant culture."
+            },
+            {
+                "name": "Johannesburg, South Africa",
+                "imageUrl": "johannesburg.jpg",
+                "description": "Johannesburg is the largest city in South Africa, known for its museums and vibrant arts scene."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Turkey",
+        "cities": [
+            {
+                "name": "Istanbul, Turkey",
+                "imageUrl": "istanbul.jpg",
+                "description": "Istanbul is known for its rich history, stunning mosques, and bustling markets."
+            },
+            {
+                "name": "Cappadocia, Turkey",
+                "imageUrl": "cappadocia.jpg",
+                "description": "Cappadocia is famous for its unique rock formations, hot air balloon rides, and ancient cave dwellings."
+            }
+        ]
+    }
+]
