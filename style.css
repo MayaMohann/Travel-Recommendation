@@ -23,7 +23,7 @@ body {
     height: auto; 
     background-attachment: fixed;
     background: linear-gradient(to right, #277c6b, rgba(0, 0, 0, 0)),
-    url(background_img.jpg);
+    url(place_images/background_img.jpg);
     background-size: cover; 
     background-position: center; 
 }
