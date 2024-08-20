@@ -430,21 +430,29 @@ header {
     visibility: hidden; 
     opacity: 0;
     transition: visibility 0s, opacity 0.5s ease-in-out;
-    height: 50%;
     border-radius: 8px;    
+
 }
 
 #results-container.show {
     visibility: visible; /* Make visible */
     opacity: 1;
     background-color: rgba(56, 56, 56, 0.579);
+    display: block;
+    max-height: 600px;
+    min-height: auto; 
+    overflow-y: auto; /* Allows vertical scrolling */
+    padding: 10px;
+    gap: 20px;
+    scroll-behavior: smooth;
+    /* margin-bottom: 20px;
 }
 
 .result-item {
     /* align-items: left; */
     border: 3px solid #ddd; 
     border-radius: 8px; 
-    height: 380px;
+    /* min-height: 280px; */
 }
 
 .result-item img {
@@ -463,6 +471,8 @@ header {
 
 .result-item p{
     padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .result-item button{
@@ -472,6 +482,6 @@ header {
     background-color: #2b937f; 
     color: white; 
     cursor: pointer; 
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-bottom: 10px;
 }

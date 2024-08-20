@@ -4,15 +4,17 @@
         "name": "Australia",
         "cities": [
             {
-                "name": "Sydney, Australia",
-                "imageUrl": "image.jpg",
-
-                "description": "Sydney is known for its iconic Sydney Opera House, beautiful beaches, and vibrant cultural scene."
+                "name": "Sydney",
+                "itemName": "Sydney, Australia",
+                "imageUrl": "sydney.jpg",
+                "description": "Sydney is known for its iconic Sydney Opera House, beautiful beaches, and vibrant cultural scene.",
+                "type": "Beach"
             },
             {
                 "name": "Melbourne, Australia",
                 "imageUrl": "image.jpg",
-                "description": "Melbourne is famous for its coffee culture, art galleries, and diverse dining experiences."
+                "description": "Melbourne is famous for its coffee culture, art galleries, and diverse dining experiences.",
+                "type": "City"
             }
         ]
     },
@@ -21,14 +23,18 @@
         "name": "Japan",
         "cities": [
             {
-                "name": "Tokyo, Japan",
+                "name" : "Tokyo",
+                "itemName": "Tokyo, Japan",
                 "imageUrl": "tokyo.jpg",
-                "description": "Tokyo is a bustling metropolis known for its modern architecture, shopping, and traditional temples."
+                "description": "Tokyo is a bustling metropolis known for its modern architecture, shopping, and traditional temples.",
+                "type": "Temple"
             },
             {
-                "name": "Kyoto, Japan",
+                "name" : "Kyoto",
+                "itemName": "Kyoto, Japan",
                 "imageUrl": "kyoto.jpg",
-                "description": "Kyoto is famous for its classical Buddhist temples, beautiful gardens, and traditional wooden houses."
+                "description": "Kyoto is famous for its classical Buddhist temples, beautiful gardens, and traditional wooden houses.",
+                "type": "Temple"
             }
         ]
     },
@@ -37,14 +43,18 @@
         "name": "France",
         "cities": [
             {
-                "name": "Paris, France",
+                "name" : "Paris",                
+                "itemName": "Paris, France",
                 "imageUrl": "image.jpg",
-                "description": "Paris, the city of love, is known for its art, fashion, gastronomy, and the iconic Eiffel Tower."
+                "description": "Paris, the city of love, is known for its art, fashion, gastronomy, and the iconic Eiffel Tower.",
+                "type": "City"
             },
             {
-                "name": "Nice, France",
-                "imageUrl": "image.jpg",
-                "description": "Nice is known for its beautiful beaches, the Promenade des Anglais, and stunning Mediterranean views."
+                "name" : "Nice",
+                "itemName": "Nice, France",
+                "imageUrl": "nice.jpg",
+                "description": "Nice is known for its beautiful beaches, the Promenade des Anglais, and stunning Mediterranean views.",
+                "type": "Beach"
             }
         ]
     },
@@ -53,14 +63,18 @@
         "name": "Italy",
         "cities": [
             {
-                "name": "Rome, Italy",
+                "name" : "Rome",
+                "itemName": "Rome, Italy",
                 "imageUrl": "image.jpg",
-                "description": "Rome, the capital of Italy, is a city with nearly 3,000 years of globally influential art, architecture, and culture."
+                "description": "Rome, the capital of Italy, is a city with nearly 3,000 years of globally influential art, architecture, and culture.",
+                "type": "History"
             },
             {
-                "name": "Venice, Italy",
+                "name" : "Venice",
+                "itemName": "Venice, Italy",
                 "imageUrl": "image.jpg",
-                "description": "Venice is famous for its canals, historic architecture, and the annual Carnival celebration."
+                "description": "Venice is famous for its canals, historic architecture, and the annual Carnival celebration.",
+                "type": "History"
             }
         ]
     },
@@ -69,14 +83,18 @@
         "name": "United States",
         "cities": [
             {
-                "name": "New York City, USA",
-                "imageUrl": "image.jpg",
-                "description": "New York City is known for its iconic landmarks like the Statue of Liberty, Times Square, and Central Park."
+                "name" : "New York City",
+                "itemName": "New York City, USA",
+                "imageUrl": "new_york.jpg",
+                "description": "New York City is known for its iconic landmarks like the Statue of Liberty, Times Square, and Central Park.",
+                "type": "City"
             },
             {
-                "name": "Los Angeles, USA",
-                "imageUrl": "image.jpg",
-                "description": "Los Angeles is known for Hollywood, beautiful beaches, and its diverse cultural scene."
+                "name" : "Los Angeles",
+                "itemName": "Los Angeles, USA",
+                "imageUrl": "los_angeles.jpg",
+                "description": "Los Angeles is known for Hollywood, beautiful beaches, and its diverse cultural scene.",
+                "type": "Beach"
             }
         ]
     },
@@ -85,14 +103,18 @@
         "name": "Canada",
         "cities": [
             {
-                "name": "Toronto, Canada",
+                "name" : "Toronto",
+                "itemName": "Toronto, Canada",
                 "imageUrl": "image.jpg",
-                "description": "Toronto is known for its skyscrapers, museums, and vibrant multicultural community."
+                "description": "Toronto is known for its skyscrapers, museums, and vibrant multicultural community.",
+                "type": "Art"
             },
             {
-                "name": "Vancouver, Canada",
+                "name" : "Vancouver",
+                "itemName": "Vancouver, Canada",
                 "imageUrl": "image.jpg",
-                "description": "Vancouver is famous for its natural beauty, with mountains, forests, and ocean surrounding the city."
+                "description": "Vancouver is famous for its natural beauty, with mountains, forests, and ocean surrounding the city.",
+                "type": "Mountains"
             }
         ]
     },
@@ -101,14 +123,18 @@
         "name": "United Kingdom",
         "cities": [
             {
-                "name": "London, UK",
+                "name" : "London",
+                "itemName": "London, UK",
                 "imageUrl": "image.jpg",
-                "description": "London is known for its rich history, cultural diversity, and iconic landmarks like Big Ben and the Tower of London."
+                "description": "London is known for its rich history, cultural diversity, and iconic landmarks like Big Ben and the Tower of London.",
+                "type": "City"
             },
             {
-                "name": "Edinburgh, UK",
+                "name" : "Edinburgh",
+                "itemName": "Edinburgh, UK",
                 "imageUrl": "image.jpg",
-                "description": "Edinburgh is famous for its medieval Old Town, the Edinburgh Castle, and its annual arts festival."
+                "description": "Edinburgh is famous for its medieval Old Town, the Edinburgh Castle, and its annual arts festival.",
+                "type": "Art"
             }
         ]
     },
@@ -117,14 +143,18 @@
         "name": "Spain",
         "cities": [
             {
-                "name": "Barcelona, Spain",
+                "name" : "Barcelona",
+                "itemName": "Barcelona, Spain",
                 "imageUrl": "image.jpg",
-                "description": "Barcelona is known for its unique architecture by Antoni Gaudí, vibrant culture, and beautiful beaches."
+                "description": "Barcelona is known for its unique architecture by Antoni Gaudí, vibrant culture, and beautiful beaches.",
+                "type": "Beach"
             },
             {
-                "name": "Madrid, Spain",
+                "name" : "Madrid",
+                "itemName": "Madrid, Spain",
                 "imageUrl": "image.jpg",
-                "description": "Madrid is the capital of Spain, known for its historic landmarks, art museums, and lively nightlife."
+                "description": "Madrid is the capital of Spain, known for its historic landmarks, art museums, and lively nightlife.",
+                "type": "Art"
             }
         ]
     },
@@ -133,14 +163,18 @@
         "name": "Thailand",
         "cities": [
             {
-                "name": "Bangkok, Thailand",
+                "name" : "Bangkok",
+                "itemName": "Bangkok, Thailand",
                 "imageUrl": "image.jpg",
-                "description": "Bangkok is known for its vibrant street life, ornate shrines, and bustling markets."
+                "description": "Bangkok is known for its vibrant street life, ornate shrines, and bustling markets.",
+                "type": "City"
             },
             {
-                "name": "Chiang Mai, Thailand",
+                "name" : "Chiang Mai",
+                "itemName": "Chiang Mai, Thailand",
                 "imageUrl": "image.jpg",
-                "description": "Chiang Mai is famous for its temples, mountains, and the annual Yi Peng Lantern Festival."
+                "description": "Chiang Mai is famous for its temples, mountains, and the annual Yi Peng Lantern Festival.",
+                "type": "Temple"
             }
         ]
     },
@@ -149,14 +183,18 @@
         "name": "China",
         "cities": [
             {
-                "name": "Beijing, China",
+                "name" : "Beijing",
+                "itemName": "Beijing, China",
                 "imageUrl": "image.jpg",
-                "description": "Beijing is known for its rich history, the Forbidden City, and the Great Wall of China."
+                "description": "Beijing is known for its rich history, the Forbidden City, and the Great Wall of China.",
+                "type": "History"
             },
             {
-                "name": "Shanghai, China",
+                "name" : "Shanghai",
+                "itemName": "Shanghai, China",
                 "imageUrl": "image.jpg",
-                "description": "Shanghai is a global financial hub known for its skyline, historic architecture, and shopping."
+                "description": "Shanghai is a global financial hub known for its skyline, historic architecture, and shopping.",
+                "type": "History"
             }
         ]
     },
@@ -165,14 +203,18 @@
         "name": "India",
         "cities": [
             {
-                "name": "New Delhi, India",
+                "name" : "New Delhi",
+                "itemName": "New Delhi, India",
                 "imageUrl": "image.jpg",
-                "description": "New Delhi is known for its historic monuments like the Red Fort and Qutub Minar, and vibrant street markets."
+                "description": "New Delhi is known for its historic monuments like the Red Fort and Qutub Minar, and vibrant street markets.",
+                "type": "History"
             },
             {
-                "name": "Mumbai, India",
+                "name" : "Mumbai",
+                "itemName": "Mumbai, India",
                 "imageUrl": "image.jpg",
-                "description": "Mumbai is the financial capital of India, famous for Bollywood, street food, and colonial architecture."
+                "description": "Mumbai is the financial capital of India, famous for Bollywood, street food, and colonial architecture.",
+                "type": "City"
             }
         ]
     }
