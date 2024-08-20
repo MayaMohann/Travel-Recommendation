@@ -38,6 +38,7 @@ function displayFilteredData(filteredData) {
                 <h2>${city.name}</h2>
                 <img src="${city.imageUrl}" alt="${city.name}">
                 <p>${city.description}</p>
+                <button>Visit</button>
             `;
             resultsContainer.appendChild(resultItem);
         });

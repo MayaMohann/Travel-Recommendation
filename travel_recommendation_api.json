@@ -22,12 +22,12 @@
         "cities": [
             {
                 "name": "Tokyo, Japan",
-                "imageUrl": "image.jpg",
+                "imageUrl": "tokyo.jpg",
                 "description": "Tokyo is a bustling metropolis known for its modern architecture, shopping, and traditional temples."
             },
             {
                 "name": "Kyoto, Japan",
-                "imageUrl": "image.jpg",
+                "imageUrl": "kyoto.jpg",
                 "description": "Kyoto is famous for its classical Buddhist temples, beautiful gardens, and traditional wooden houses."
             }
         ]

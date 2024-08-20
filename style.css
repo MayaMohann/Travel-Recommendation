@@ -20,13 +20,12 @@ body {
     font-family: 'Playfair Display', serif;
     margin: 0; 
     padding: 0; 
-    height: 100%; 
+    height: auto; 
     background-attachment: fixed;
     background: linear-gradient(to right, #277c6b, rgba(0, 0, 0, 0)),
-    url(background_img.jpg); 
+    url(background_img.jpg);
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
 }
 
 /* Header styles */
@@ -428,83 +427,51 @@ header {
 /* Main styles for the result container */
 
 #results-container {
-    visibility: hidden; /* Initially hidden */
+    visibility: hidden; 
     opacity: 0;
-    transition: visibility 0s, opacity 0.5s ease-in-out; /* Smooth transition */
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+    height: 50%;
+    border-radius: 8px;    
 }
 
 #results-container.show {
     visibility: visible; /* Make visible */
     opacity: 1;
+    background-color: rgba(56, 56, 56, 0.579);
 }
 
 .result-item {
-    margin-bottom: 20px;
+    /* align-items: left; */
+    border: 3px solid #ddd; 
+    border-radius: 8px; 
+    height: 380px;
 }
 
 .result-item img {
-    max-width: 100%;
-    height: auto;
+    height: 200px;
     display: block;
-    margin-bottom: 10px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-
-
-#search_container { 
-    /* position: absolute; */
-    /* display: none; */
-    top: 10px;
-    right: 0;
-    width: 50%; 
-    height: 50%; 
-    overflow: auto; 
-    padding: 20px; 
-    box-sizing: border-box;
-    background-color: rgba(242, 242, 242, 0); 
-    border: 1px solid #ddd; 
-    border-radius: 8px; 
-}
-
-.search-item {
-    display: flex;
-    align-items: left;
-    margin-bottom: 20px; 
-    padding: 10px;
-    border: 1px solid #ddd; 
-    border-radius: 8px; 
+.result-item h2{
+    margin-left: 300px; 
+    font-size: 25px;
 
 }
 
-.search-item img {
-    width: 100px; 
-    height: 100px; 
-    object-fit: cover;
-    border-radius: 8px; 
-    margin-right: 20px;
+.result-item p{
+    padding: 0;
 }
 
-.place-name {
-    font-size: 18px; 
-    font-weight: bold;
-    margin: 0;
-    margin-bottom: 10px; 
-}
-
-.visit-button {
-    position: relative;
-    padding: 4px; 
-    height: fit-content;
-    font-size: 18px; 
-    color: white; 
-    background-color: #38bea4; 
+.result-item button{
+    font-size: 20px; 
     border: none; 
     border-radius: 5px; 
+    background-color: #2b937f; 
+    color: white; 
     cursor: pointer; 
-    transition: background-color 0.3s ease-in-out; 
-}
-
-.visit-button:hover {
-    background-color: #2c8d7a; 
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
