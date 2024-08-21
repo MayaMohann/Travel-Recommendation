@@ -33,7 +33,7 @@
             {
                 "name" : "Kyoto",
                 "itemName": "Kyoto, Japan",
-                "imageUrl": "place_images/kyoto.jpg",
+                "imageUrl": "https://i.insider.com/559c2c45ecad04df54fc8f8c?width=600&format=jpeg&auto=webp",
                 "description": "Kyoto is famous for its classical Buddhist temples, beautiful gardens, and traditional wooden houses.",
                 "type": "Temple"
             }
@@ -46,7 +46,7 @@
             {
                 "name" : "Paris",                
                 "itemName": "Paris, France",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://t4.ftcdn.net/jpg/02/96/15/35/360_F_296153501_B34baBHDkFXbl5RmzxpiOumF4LHGCvAE.jpg",
                 "description": "Paris, the city of love, is known for its art, fashion, gastronomy, and the iconic Eiffel Tower.",
                 "type": "City"
             },
@@ -66,14 +66,14 @@
             {
                 "name" : "Rome",
                 "itemName": "Rome, Italy",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://www.insightvacations.com/wp-content/uploads/2024/01/caleb-miller-0Bs3et8FYyg-unsplash.jpg",
                 "description": "Rome, the capital of Italy, is a city with nearly 3,000 years of globally influential art, architecture, and culture.",
                 "type": "History"
             },
             {
                 "name" : "Venice",
                 "itemName": "Venice, Italy",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://lp-cms-production.imgix.net/2021-06/GettyRF_543346423.jpg?w=600&h=400",
                 "description": "Venice is famous for its canals, historic architecture, and the annual Carnival celebration.",
                 "type": "History"
             }
@@ -106,14 +106,14 @@
             {
                 "name" : "Toronto",
                 "itemName": "Toronto, Canada",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://images.adsttc.com/media/images/650b/778f/b136/681e/6817/1ee7/large_jpg/toronto-architecture-city-guide-30-modern-and-contemporary-attractions-in-canadas-largest-city_37.jpg?1695250340",
                 "description": "Toronto is known for its skyscrapers, museums, and vibrant multicultural community.",
                 "type": "Art"
             },
             {
                 "name" : "Vancouver",
                 "itemName": "Vancouver, Canada",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://www.travelandleisure.com/thmb/AkD1av8M-MeFAfr6OKe1vCLdIVo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vancouver-british-columbia-canada-lead-VANCOVTG1021-8621ebc29fb34d059e9de39de49a56c8.jpg",
                 "description": "Vancouver is famous for its natural beauty, with mountains, forests, and ocean surrounding the city.",
                 "type": "Mountains"
             }
@@ -126,14 +126,14 @@
             {
                 "name" : "London",
                 "itemName": "London, UK",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://c4.wallpaperflare.com/wallpaper/588/833/260/city-london-london-eye-big-ben-wallpaper-preview.jpg",
                 "description": "London is known for its rich history, cultural diversity, and iconic landmarks like Big Ben and the Tower of London.",
                 "type": "City"
             },
             {
                 "name" : "Edinburgh",
                 "itemName": "Edinburgh, UK",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://images3.alphacoders.com/778/thumb-1920-778993.jpg",
                 "description": "Edinburgh is famous for its medieval Old Town, the Edinburgh Castle, and its annual arts festival.",
                 "type": "Art"
             }
@@ -146,14 +146,14 @@
             {
                 "name" : "Barcelona",
                 "itemName": "Barcelona, Spain",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://cdn.pixabay.com/photo/2020/05/12/18/29/city-5164368_640.jpg",
                 "description": "Barcelona is known for its unique architecture by Antoni Gaudí, vibrant culture, and beautiful beaches.",
                 "type": "Beach"
             },
             {
                 "name" : "Madrid",
                 "itemName": "Madrid, Spain",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://c4.wallpaperflare.com/wallpaper/285/982/331/madrid-daytime-town-square-cityscape-wallpaper-preview.jpg",
                 "description": "Madrid is the capital of Spain, known for its historic landmarks, art museums, and lively nightlife.",
                 "type": "Art"
             }
@@ -166,14 +166,14 @@
             {
                 "name" : "Bangkok",
                 "itemName": "Bangkok, Thailand",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://t3.ftcdn.net/jpg/00/94/35/24/360_F_94352425_IbCmWHZXgVjYXhFXocO8cvcUK3AA0cS9.jpg",
                 "description": "Bangkok is known for its vibrant street life, ornate shrines, and bustling markets.",
                 "type": "City"
             },
             {
                 "name" : "Chiang Mai",
                 "itemName": "Chiang Mai, Thailand",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://c4.wallpaperflare.com/wallpaper/455/684/39/religious-the-great-holy-relics-pagoda-nabhapolbhumisiri-architecture-buddhism-wallpaper-preview.jpg",
                 "description": "Chiang Mai is famous for its temples, mountains, and the annual Yi Peng Lantern Festival.",
                 "type": "Temple"
             }
@@ -186,14 +186,14 @@
             {
                 "name" : "Beijing",
                 "itemName": "Beijing, China",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://4kwallpapers.com/images/wallpapers/forbidden-city-beijing-china-museum-moat-imperial-palace-2880x1800-3905.jpg",
                 "description": "Beijing is known for its rich history, the Forbidden City, and the Great Wall of China.",
                 "type": "History"
             },
             {
                 "name" : "Shanghai",
                 "itemName": "Shanghai, China",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://c4.wallpaperflare.com/wallpaper/547/852/954/cities-shanghai-china-huangpu-wallpaper-preview.jpg",
                 "description": "Shanghai is a global financial hub known for its skyline, historic architecture, and shopping.",
                 "type": "History"
             }
@@ -206,14 +206,14 @@
             {
                 "name" : "New Delhi",
                 "itemName": "New Delhi, India",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://cdn.pixabay.com/photo/2016/05/08/15/23/india-1379273_640.jpg",
                 "description": "New Delhi is known for its historic monuments like the Red Fort and Qutub Minar, and vibrant street markets.",
                 "type": "History"
             },
             {
                 "name" : "Mumbai",
                 "itemName": "Mumbai, India",
-                "imageUrl": "place_images/image.jpg",
+                "imageUrl": "https://w0.peakpx.com/wallpaper/581/14/HD-wallpaper-gateway-of-india-cst-mumbai.jpg",
                 "description": "Mumbai is the financial capital of India, famous for Bollywood, street food, and colonial architecture.",
                 "type": "City"
             }
