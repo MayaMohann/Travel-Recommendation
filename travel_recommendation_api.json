@@ -11,7 +11,8 @@
                 "type": "Beach"
             },
             {
-                "name": "Melbourne, Australia",
+                "name": "Melbourne",
+                "itemName": "Melbourne, Australia",
                 "imageUrl": "place_images/image.jpg",
                 "description": "Melbourne is famous for its coffee culture, art galleries, and diverse dining experiences.",
                 "type": "City"
