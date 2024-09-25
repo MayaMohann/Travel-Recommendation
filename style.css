@@ -466,7 +466,6 @@ header {
 .result-item h2{
     margin-left: 300px; 
     font-size: 25px;
-
 }
 
 .result-item p{
@@ -484,4 +483,96 @@ header {
     cursor: pointer; 
     margin-left: 370px;
     /* margin-bottom: 10px; */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    header {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px; 
+    }
+
+    #nav-list {
+        margin: 10px 0; 
+    }
+
+    #nav-list li {
+        margin: 5px 0; 
+    }
+
+    #logo {
+        font-size: 18px; 
+    }
+
+    .header-item input {
+        width: 100%; 
+        margin: 5px 0; 
+    }
+
+    #content {
+        max-width: 100%; 
+        margin-left: 0; 
+    }
+
+    #tagline {
+        font-size: 36px; 
+    }
+
+    #description {
+        font-size: 16px; 
+        margin-right: 0; 
+    }
+
+    #about_id {
+        font-size: 28px; 
+    }
+
+    #about_desc {
+        font-size: 16px; 
+        margin-left: 0; 
+    }
+
+    #team_desc {
+        width: 100%; 
+    }
+
+    #team_desc li {
+        flex-basis: 100%; 
+    }
+
+    #contact_id {
+        margin-left: 0; 
+        margin-top: 30px; 
+    }
+
+    #contact_id h1 {
+        font-size: 36px; 
+    }
+
+    #contact_id h6 {
+        font-size: 18px; 
+    }
+
+    #contact_id h5 {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+    #tagline {
+        font-size: 28px; 
+    }
+
+    #description {
+        font-size: 14px; 
+    }
+
+    #contact_id h1 {
+        font-size: 28px; 
+    }
 }
